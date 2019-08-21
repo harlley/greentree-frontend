@@ -6,18 +6,16 @@ import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
 
 Vue.use(Buefy)
-
 Vue.use(VueRouter)
 
 Vue.config.productionTip = false
-
 
 import * as VueGoogleMaps from 'vue2-google-maps'
 import router from './router'
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyBfMhFCkVNku0hQ6ddw8MWoQgOLU3Hnyks'
+    key: process.env.VUE_APP_GOOGLE_MAPS_KEY
   },
   installComponents: true
 })

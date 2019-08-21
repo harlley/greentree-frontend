@@ -55,10 +55,6 @@
               { position: {lat: 0.0, lng: 0.0}}
             ],
             getMap: this.$root.mapping,
-
-            video: {},
-            canvas: {},
-            captures: []            
           }
         },
 
