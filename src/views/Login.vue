@@ -32,7 +32,7 @@ export default {
   },
   methods: {
     onLogin() {
-      this.$router.push({ name: 'dashboard'})
+      this.$router.push({ name: 'new-report'})
     }
   }
 }
